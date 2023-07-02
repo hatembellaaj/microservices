@@ -1,0 +1,28 @@
+{
+  "changelogDate": "20230702175022",
+  "clientRootFolder": "articledb",
+  "databaseType": "mongodb",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "price",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "idcategory",
+      "fieldType": "String"
+    }
+  ],
+  "microserviceName": "articledb",
+  "microservicePath": "../articlemanager",
+  "name": "Article",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}

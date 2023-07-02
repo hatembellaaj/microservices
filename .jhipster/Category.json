@@ -1,0 +1,24 @@
+{
+  "changelogDate": "20230702174831",
+  "clientRootFolder": "categorydb",
+  "databaseType": "mongodb",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    }
+  ],
+  "microserviceName": "categorydb",
+  "microservicePath": "../categorymanager",
+  "name": "Category",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}
